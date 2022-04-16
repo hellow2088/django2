@@ -1,0 +1,11 @@
+<p>
+	<a href="{% url 'polls:index' %}">my index</a>
+	<a href="{% url 'polls:questions' %}"> my questions</a>
+	<a href="{% url 'polls:add' %}">Add Question</a>
+	<a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">添加</a>
+
+
+</p>
+
+{% block content %}
+{% endblock %}

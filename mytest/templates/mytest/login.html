@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="/static/bt/css/bootstrap.css">
+    <script type="text/javascript" src="/static/js/myjs.js"></script>
+    <script type="text/javascript" src="/static/js/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-lg-3">
+            {% csrf_token %}
+            <button onclick="setLoginForm()">对齐</button>
+            <form action="{% url 'mytest:mylogin' %}" method="post" id="loginform">
+
+                <div class="form-group">
+                    <label for="id_username">用户名</label>
+                    {{ loginform.username }}<br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="id_password">密码</label>
+                    {{ loginform.password }}<br>
+                </div>
+
+                {#                验证码#}
+                <div class="form-group">
+                    <label>验证码</label>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="valid_code form-control">
+                        </div>
+                        <div>
+                            <img width="132" height="32" id="imageCode" src="/mytest/get_validCode_img/">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                {#	submit form 表单提交#}
+                {#	<input type="submit" name="提交">#}
+
+                {#    button 绑定事件，ajax提交#}
+                <input type="button" value="提交" class="btn btn-default login_btn"><span class="error pull-right"></span>
+                <a href="/mytest/register" class="btn btn-success pull-right">注册</a>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+<script>
+    $('#imageCode').click(function (){
+    $(this)[0].src+='?';
+
+    })
+    //校验验证码
+    $('.login_btn').click(function (){
+        $.ajax({
+            url:"",
+            type:'post',
+            data:{
+                user:$('#id_username').val(),
+                pwd:$('#id_password').val(),
+                validCode:$('.valid_code').val(),
+                csrfmiddlewaretoken:$("[name='csrfmiddlewaretoken']").val()
+
+            },
+            success:function (data){
+                console.log(data)
+                if(data.user){
+                    location.href = '/mytest/index'
+                }else {
+                    $('.error').text(data.msg).css({'color':'red','margin':'10px'});
+                    setTimeout(function (){
+                        $('.error').text('');
+                    },2000)
+                }
+            }
+        })
+    })
+</script>
+</body>
+</html>

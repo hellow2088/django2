@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+
+</head>
+<body>
+<form>
+     <form>
+        <input id="p1" class="p1" type="text" value="">
+        <input id="btn" class="btn" type="button" value="go">
+    </form>
+</form>
+<button id="btn" onclick="editAjaxSend()">ajax-get</button>
+
+<script>
+    var person = {
+        firstName:"John",
+        lastName:"Doe",
+        age:50,
+        eyeColor:"blue"
+    };
+
+    var sendAjax = {
+        type:'post',
+        data:{p1:'123'},
+        url:'',
+        success:function (data){
+            console.log(data)
+        }
+    };
+
+
+    a = 10;
+    function go(){
+        $.ajax(sendAjax);
+    }
+
+    $('#btn').click(go);
+
+
+
+
+    $(document).ready(function (){
+         $('#btn').click(function (){
+            {#$('.p1').val('123');#}
+            $('.p1').text('1231');
+        });
+    });
+
+
+
+    function editAjaxSend(){
+        var nid = 1;
+        var title = 'ajax';
+        var press = 'P01';
+        var date = '2020';
+
+        $.ajax({
+            url:'/mytest/ajtest/',
+            type: 'POST',
+            data:{'nid':nid,'title':title,'press':press,'date':date},
+
+            success:function (arg){
+                arg = JSON.parse(arg);
+                // console.log(123);
+                if (arg.status){
+                    // location.reload()
+                    console.log('okokok');
+                    window.location.href = 'https://www.baidu.com';
+
+                }else{
+                    alert(arg.msg);
+                }
+
+            }
+        })
+
+    }
+
+
+
+</script>
+</body>
+</html>

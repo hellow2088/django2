@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <button onclick="myFunction()">点击这里</button>
+    <p id="demo"></p>
+<!--<script>-->
+<!--function myFunction(){-->
+<!--	var x="";-->
+<!--	var time=new Date().getHours();-->
+<!--	if (time<20){-->
+<!--	 	x="Good day";-->
+<!--     }-->
+<!--	else{-->
+<!-- 		x="Good evening";-->
+<!-- 	}-->
+<!--	document.getElementById("demo").innerHTML=x;-->
+<!--}-->
+<!--</script>-->
+</head>
+<body>
+<script>
+
+        function myFunction() {
+        var first = document.getElementById("first");
+        switch (first.selectedIndex) {
+            case 1:
+                var obj = document.getElementById("id1");
+                obj.setAttribute("readOnly",false);
+                obj.value='';
+                alert('1-myFunction');
+                break;
+            case 2:
+                alert('2-myFunction')
+                var obj = document.getElementById("id2");
+                obj.setAttribute("readOnly",false);
+                obj.value='';
+                break;
+            case 3:
+                var obj = document.getElementById("id3");
+                obj.setAttribute("readOnly",false);
+                obj.value='';
+                break;
+    }
+
+}
+
+     function nextChange() {
+        var first = document.getElementById("first");
+        if(first.selectedIndex == 1)
+
+        {
+            var obj2 = document.getElementById("id2");
+            obj2.setAttribute();
+            alert('1-nextChange');
+            obj2.value='';
+        }
+
+        if(first.selectedIndex == 2)
+        {
+            var obj = document.getElementById("id2");
+            obj.setAttribute("readOnly",true);
+            alert('2-nextChange')
+
+            obj.style.backgroundColor="#d2d2d2";
+        }
+        if(first.selectedIndex==3){
+            var obj = document.getElementById("id3");
+            obj.setAttribute("readOnly",true);
+            obj.style.backgroundColor="#d2d2d2";
+        }
+    }
+
+
+</script>
+
+<!--<script>-->
+<!--    function nextChange()-->
+<!--    {-->
+<!--        var first = document.getElementById("first");-->
+<!--        if(first.selectedIndex == 1)-->
+
+<!--        {-->
+<!--            var obj2 = document.getElementById("id2");-->
+<!--            obj2.setAttribute();-->
+<!--            alert('11111');-->
+<!--            obj2.value='';-->
+<!--        }-->
+
+<!--        if(first.selectedIndex == 2)-->
+<!--        {-->
+<!--            var obj = document.getElementById("id2");-->
+<!--            obj.setAttribute("readOnly",true);-->
+<!--            obj.style.backgroundColor="#d2d2d2";-->
+<!--        }-->
+<!--        if(first.selectedIndex==3){-->
+<!--            var obj = document.getElementById("id3");-->
+<!--            obj.setAttribute("readOnly",true);-->
+<!--            obj.style.backgroundColor="#d2d2d2";-->
+<!--        }-->
+<!--    }-->
+
+<!--</script>-->
+
+
+<style>
+    input{
+    disabled:"disabled";
+    style:"background:#CCCCCC";
+
+    }
+
+    label{
+        color: #0a53be;
+    }
+</style>
+
+    <script type="text/javascript">
+        function readonly(){
+            // document.getElementById("id1").disabled = false;
+            var obj = document.getElementById("id1");
+            obj.setAttribute("readOnly",true);
+            obj.style.backgroundColor="#d2d2d2";
+        }
+    </script>
+<form action="{% url 'useradmin:jsif' %}" method="post">
+    <label>利率类型</label><br>
+    <select name="f" id="first" onchange="nextChange()">
+        <option selected="selected"></option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select><br>
+    <label>name1</label><input type="text" name="name1" id="id1"><br>
+    <label>name2</label><input type="text" name="name2" id="id2"><br>
+    <label>name3</label><input class="class1" id="id3" type="text" name="name3"><br>
+
+    <input type="submit" value="提交">
+
+</form>
+</body>
+</html>

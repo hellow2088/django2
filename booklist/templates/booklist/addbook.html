@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" action="{% url 'booklist:addbook' %}">
+   书名:<input type='text' name='title' /><br>
+    出版社:<input type='text' name='press' /><br>
+    出版日期:<input type='' name='date' /><br>
+    <input type='submit' value='提交' />{{msg}}
+</form>
+</body>
+</html>

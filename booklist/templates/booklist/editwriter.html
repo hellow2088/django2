@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" action="/booklist/editwriter/">
+             <input type='text' name='nid' value="{{ writer.id }}" style="display: none"/>
+        姓名：<input type='text' name='wname' value="{{ writer.wname }}"/><br>
+        年龄：<input type='text' name='wage'  value="{{ writer.wage }}" /><br>
+
+    <p>
+        <select multiple size="10" name="bid">
+            {% for b in book %}
+                {% if b.id in bookidlist %}
+                    <option selected value="{{ b.id }}">{{ b.title }}</option>
+                {% else %}
+                    <option value="{{ b.id }}">{{ b.title }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
+    </p>
+<input type='submit' value='提交' /> | <input type='submit' value='取消' />
+
+</form>
+</body>
+</html>

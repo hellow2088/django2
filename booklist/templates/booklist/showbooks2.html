@@ -1,0 +1,224 @@
+{% extends 'booklist/layout.html' %}
+{% block bb %}
+    <!-- 按钮触发模态框 -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	添加书籍(Modal)
+</button>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					添加书籍
+				</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+                    书名:<input id="title" type='text' name='title' /><br>
+                    出版社:<input id="press" type='text' name='press' /><br>
+                    出版日期:<input id="date" type='' name='date' /><br>
+                </p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+				</button>
+				<button type="button" class="btn btn-primary" onclick="AjaxSend();">
+					提交更改
+				</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+<h3><a href="/booklist/addbook">添加</a> | <a onclick="showModal();">对话框添加书籍</a></h3>
+书籍列表：<br>
+<table class="table table-striped table-hover table-condensed">
+
+    <tbody>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>书籍名称</th>
+                    <th>出版社</th>
+                    <th>出版时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+        {% for book in book %}
+        <tr>
+            <td>{{book.id}}</td>
+            <td>{{book.title}}</td>
+            <td>{{book.press}}</td>
+            <td>{{book.date | date:'Y-m-d'}}</td>
+            <td><a href="/booklist/editbook/{{ book.id }}">编辑</a>
+                |
+                <a onclick="modelEdit(this);">对话框编辑</a>
+                |
+                <a href="/booklist/delbook/?nid={{book.id}}">删除</a>
+                <br>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<!--{{ pageinfo.pager |safe }}-->
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li>
+        {% if pageinfo.current_page > 0 %}
+        <a href="/booklist/showbooks2/?page={{ pageinfo.current_page|add:-1 }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+        {% endif %}
+
+    </li>
+    <li>{{ pageinfo.pager |safe }}</li>
+    <li>
+        {% if pageinfo.current_page < pageinfo.pager_count %}
+      <a href="/booklist/showbooks2/?page={{ pageinfo.current_page|add:1 }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+        {% endif %}
+
+    </li>
+  </ul>
+</nav>
+
+
+<div id="shadow" class="shadow hide"></div>
+
+<div id="modal1" class="modal1 hide">
+        <p>
+            书名:<input id="title" type='text' name='title' /><br>
+            出版社:<input id="press" type='text' name='press' /><br>
+            出版日期:<input id="date" type='' name='date' /><br>
+        </p>
+            <input type='button' value='提交' onclick="AjaxSend();"/> <span id="errormsg"></span>
+            <input type='button' value='取消' onclick="cancleModal();"/>
+</div>
+
+<!--对话框显示编辑书籍信息-->
+<div id="editmodal" class="modal1 hide">
+        <h3>对话框编辑</h3>
+        <p>
+            <input id="eid" type='text' name='id' style="display: none"/><br>
+            书名:<input id="etitle" type='text' name='title' /><br>
+            出版社:<input id="epress" type='text' name='press' /><br>
+            出版日期:<input id="edate" type='' name='date' /><br>
+        </p>
+        <input type='button' value='提交' onclick='editAjaxSend();'/>
+        <span id="errormsg"></span>
+        <input type='button' value='取消' onclick='cancleModal();'/>
+
+</div>
+
+<!--<script type="text/javascript" src="/static/js/jquery.js"></script>-->
+
+<!--函数-->
+<script type="text/javascript">
+    function cancleModal(){
+        document.getElementById('shadow').classList.add('hide');
+        document.getElementById('modal1').classList.add('hide');
+        document.getElementById('editmodal').classList.add('hide');
+
+
+    }
+
+    function showModal(){
+        document.getElementById('shadow').classList.remove('hide');
+        document.getElementById('modal1').classList.remove('hide');
+    }
+
+    function AjaxSend(){
+        $.ajax(
+            {url:'/booklist/windowaddbook2/',
+            type:'POST',
+            data:{'title':$('#title').val(),'press':$('#press').val(),'date':$('#date').val(),},
+            success:function (data){
+                console.log(data);
+                if (data=='OK'){
+                    location.href='/booklist/showbooks2/';
+                }else {
+                    $('#errormsg').text(data);
+                }
+            }
+        })
+
+    }
+
+
+    function modelEdit(ths){
+        document.getElementById('shadow').classList.remove('hide');
+        document.getElementById('editmodal').classList.remove('hide');
+        var row = $(ths).parent().prevAll();
+
+        var content = $(row[3]).text();
+        $('#eid').val(content);
+
+        var content = $(row[2]).text();
+        $('#etitle').val(content);
+
+
+        var content = $(row[1]).text();
+        $('#epress').val(content);
+
+        var content = $(row[0]).text();
+        $('#edate').val(content);
+    }
+
+    function editAjaxSend(){
+        var nid = $('#eid').val();
+        var title = $('#etitle').val();
+        var press = $('#epress').val();
+        var date = $('#edate').val();
+
+        $.ajax({
+            url:'/booklist/modelEditbook/',
+            type: 'POST',
+            data:{'nid':nid,'title':title,'press':press,'date':date},
+
+            success:function (arg){
+                arg = JSON.parse(arg);
+                if (arg.status){
+                    location.reload()
+
+                }else{
+                    alert(arg.msg);
+                }
+
+            }
+        })
+
+
+    }
+</script>
+
+<!--对话框属性-->
+<style>
+        .hide{
+            display: none;
+        }
+
+        .shadow{
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: black;
+            opacity: 0.3;
+            z-index: 999;
+        }
+        .modal1{
+            position: fixed;
+            z-index: 1000;
+            height: 50%;
+            width: 50%;
+            top: 300px;
+            bottom: 400px;
+            background-color: white;
+            margin-left: 350px;
+            margin-top: -200px;
+        }
+
+    </style>
+{% endblock %}

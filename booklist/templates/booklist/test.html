@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script type="text/javascript" src="{% static 'js/myjs.js' %}"></script>
+</head>
+
+
+<body>
+<form method="POST" action="/booklist/getmsg/">
+    <table>
+        <tr>
+            <td><label>客户姓名</label></td>
+            <td><input type='text' name='name' id="p1"/></td>
+            <td><label>年龄</label></td>
+            <td><input type='text' name='age' id="p2"/></td>
+            <td><label>性别</label></td>
+            <td><input type='text' name='gender' id="pg"/></td>
+        </tr>
+        <tr>
+            <td><label>地址</label></td>
+            <td><input type='text' name='name' id="p3"/></td>
+            <td><label>专业技能</label></td>
+            <td><input type='text' name='age' id="p4"/></td>
+            <td><label>毕业院校以及年限</label></td>
+            <td><input type='text' name='gender' id="p5" /></td>
+        </tr>
+        <tr>
+            <td><label>地区</label></td>
+            <td>
+                <select id="diqu" name="diqu" onchange="cgdiqu();">
+                    <option value="1">北京</option>
+                    <option value="2">深圳</option>
+                </select>
+            </td>
+        </tr>
+
+    </table>
+
+    <input type="button" value="go" onclick="pt();">
+    <input type="button" value="更新地区信息" onclick="getpt();">
+    <input type="reset" value="重置">
+
+    <input type="submit" value="提交">
+</form>
+
+<div>
+
+</div>
+</body>
+</html>

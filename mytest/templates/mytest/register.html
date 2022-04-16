@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/bt/css/bootstrap.css">
+    <script type="text/javascript" src="/static/js/myjs.js"></script>
+    <script type="text/javascript" src="/static/js/jquery-3.6.0.js"></script>
+	<title></title>
+    <style>
+        #avatar_iamge{
+            margin:10px;
+        }
+
+        #avatar {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-lg-offset-3">
+            {% csrf_token %}
+            <form action="{% url 'mytest:mylogin' %}" method="post" id="loginform">
+
+                {% for foo in rgform %}
+                    <div class="form-group">
+                    <label for="{{ foo.auto_id }}">{{ foo.label }}</label>
+                    {{ foo }}
+                    </div>
+
+                {% endfor %}
+            <div class="form-group">
+                <label for="avatar">头像<img id="avatar_iamge" width="50" height="50" src="/static/images/default.png"></label>
+                <input id="avatar" type="file">
+
+            </div>
+
+                <input type="button" value="提交" class="btn btn-default login_btn"><span class="error pull-right"></span>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    $('#avatar').change(function (){
+        var fileobj = $(this)[0].files[0];
+        var ava = document.getElementById('avatar').value;
+        console.log(ava);
+        var reader = new FileReader();
+        reader.readAsDataURL(fileobj)
+
+        reader.onload=function (){
+            //jquery方式
+            {#$('#avatar_iamge').attr('src',reader.result);#}
+            //js方式
+            document.getElementById('avatar_iamge').setAttribute('src',reader.result);
+        }
+
+
+    });
+
+
+    function go (){
+        $.ajax({
+            type:'post',
+            data:{},
+            url:'',
+            success:function (data){
+                console.log(data)
+                if(data.user){
+                    console.log('ok');
+                }else {
+                    console.log('error');
+                }
+            }
+
+        })
+    }
+    $('.valid_code').click(go)
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/plugins/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/static/css/commoncss.css">
+</head>
+<body>
+    <div class="pg-header">
+        <div class="person right" style="position: relative;padding: 0 15px;">
+            <img width="30" height="30" src="/static/images/person.jpg">
+            <div class="personinfo">
+                <a>个人资料</a><br>
+                <a href="{% url 'useradmin:logout' %}">退出</a>
+                <a href="{% url 'useradmin:login' %}">登录</a>
+
+            </div>
+        </div>
+        <div class="logo left">书籍后台管理系统</div>
+        <div class="rmenus right">
+            <a><i class="fa fa-commenting-o" aria-hidden="true"></i>消息</a>
+            <a><i class="fa fa-envelope-o" aria-hidden="true"></i> 邮件</a>
+        </div>
+    </div>
+    <div class="pg-body">
+        <div class="menus right">cd</div>
+
+        <div class="content">
+            <ol class="breadcrumb">
+              <li><a href="#">首页</a></li>
+              <li><a href="#">书籍管理</a></li>
+              <li class="active">添加书籍</li>
+            </ol>
+            <div>
+                <form action="{% url 'booklist:search' %}" method="get">
+                    <input type="text" name="q" id="keyword">
+                    <input type="submit" value="查询" id="sbt" onclick="setkeyword();">
+                </form>
+            </div>
+
+            {% block bb %}
+
+            {% endblock %}
+        </div>
+
+
+    </div>
+
+    <div class="pg-body">
+        <div class="menus">
+            <a>书籍管理</a>
+            <a href="/booklist/writer_list/">作者管理</a>
+            <a href="/booklist/showhero/">英雄管理</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

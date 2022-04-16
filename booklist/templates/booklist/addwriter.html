@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" action="/booklist/addwriter/">
+        姓名：<input type='text' name='wname' /><br>
+        年龄：<input type='text' name='wage' /><br>
+
+    <p>
+        <select multiple size="10" name="bid">
+            {% for b in btitle %}
+                <option value="{{ b.id }}">{{ b.title }}</option>
+            {% endfor %}
+        </select>
+    </p>
+<input type='submit' value='提交' /> | <input type='submit' value='取消' />
+
+</form>
+
+
+</body>
+</html>

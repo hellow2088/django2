@@ -1,0 +1,25 @@
+{% extends 'booklist/layout.html' %}
+{% block bb %}
+    <body>
+<!--{% if results %}-->
+
+<!--    <ul>-->
+<!--        {% for hero in results %}-->
+<!--            <li><a href="/booklist/heroinfo/{{hero.id}}">{{hero}}</a></li>-->
+<!--        {% endfor %}-->
+<!--    </ul>-->
+<!--{% else %}-->
+<!--    <p>No hero are available.</p>-->
+
+<!--{% endif %}-->
+<h3><a href="/booklist/addhero/{{hero.id}}">添加</a></h3>
+{% for hero in results %}
+{{hero.name}}|{{hero.book}}|{{hero.skill}}|{{hero.org.orgname}}|
+<a href="/booklist/edithero/?nid={{hero.id}}">编辑</a>
+|
+<a href="/booklist/delhero/?nid={{hero.id}}">删除</a>
+<br>
+{% endfor %}
+
+</body>
+{% endblock %}

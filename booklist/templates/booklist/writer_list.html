@@ -1,0 +1,165 @@
+{% extends 'booklist/layout.html' %}
+{% block bb %}
+    <div id="shadow" class="shadow hide"></div>
+    <div id="loading" class="loading hide"></div>
+    <div id="modal" class="modal hide">
+        <p>
+            作家姓名：<input type='text' name='wname' id="tname" />
+            作家年龄：<input type='text' name='wage' id="tage"/>
+        </p>
+
+        </p>
+            <select id="bid" multiple size="10">
+
+            </select>
+        <a id="addSubmit">提交</a>
+    </div>
+
+    <div style="width: 1480px;margin: 0 auto;">
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <h1>作家列表</h1>
+            <div style="margin: 10px 0;">
+                <h3><a href="/booklist/addwriter" class="btn btn-primary">添加</a></h3>
+                <h3><a id="btnAddWriter" class="btn btn-primary">对话框添加</a></h3>
+            </div>
+
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+
+            <tbody>
+                <thead>
+                    {% for w in writer_list %}
+                    <tr>
+                        <td>{{w.id}}</td>
+                        <td>{{w.wname}}</td>
+                        <td>{{w.wage}}</td>
+                        <td>
+                            <a class="glyphicon glyphicon-plus" href="/booklist/addwriter"></a>|
+                            <a class="glyphicon glyphicon-pencil" href="/booklist/editwriter?nid={{ w.id }}"></a>|
+                            <a class="glyphicon glyphicon-trash"></a>
+
+                        </td>
+                    </tr>
+
+                    {% endfor %}
+                </thead>
+            </tbody>
+        </table>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+
+
+    </div>
+
+    <!--函数-->
+    <script>
+        $(function (){
+            bindAdd();
+            bindAddsubmit();
+        });
+
+        function bindAdd() {
+            $('#btnAddWriter').click(function (){
+                $('#shadow,#loading').removeClass('hide');
+                $.ajax({
+                    url:'/booklist/getwriter/',
+                    type:'GET',
+                    dataType:'JSON',
+                    success:function (arg){
+                        //console.log(arg);
+
+                        $.each(arg,function (i,row){
+                            var tag = document.createElement('option');
+                            tag.innerHTML = row.wname;
+                            tag.setAttribute('value',row.id);
+
+                            $('#bid').append(tag);
+                        });
+
+                        $('#loading').addClass('hide');
+                        $('#modal').removeClass('hide');
+
+                    }
+                })
+            })
+        }
+
+        function bindAddsubmit(){
+            $('#addSubmit').click(function (){
+                var name = $('#tname').val();
+                var age = $('#tage').val();
+                var bid = $('#bid').val();
+                console.log(name,age,bid);
+
+                $.ajax({
+                    url: '/booklist/modal_addwriter/',
+                    type: 'POST',
+                    data:{'name':name,'age':age,'wid':bid},
+                    traditional:true,
+                    success:function (arg){
+                        console.log(arg)
+                    }
+
+                    }
+
+                )
+
+            })
+
+        }
+    </script>
+
+    <!-- 模态对话框显示-->
+    <style>
+        .hide{
+            display: none;
+        }
+
+        .shadow{
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: black;
+            opacity: 0.3;
+            z-index: 999;
+        }
+
+        .loading{
+            position: fixed;
+            height: 124px;
+            width: 124px;
+            left: 50%;
+            top: 50%;
+            margin-left: -62px;
+            margin-top: -62px;
+            background-image: url("/static/images/loading2.gif");
+        }
+
+        .modal{
+            position: fixed;
+            z-index: 1000;
+            height: 50%;
+            width: 50%;
+            top: 300px;
+            bottom: 400px;
+            background-color: white;
+            margin-left: 350px;
+            margin-top: -200px;
+
+        }
+
+    </style>
+{% endblock %}

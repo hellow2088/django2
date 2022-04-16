@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<style>
+    .bkc{
+        background-color: #d0e9c6;
+        display: block;
+    }
+</style>
+<body>
+<div class="bkc" id="dv">123</div>
+
+<script>
+    // $('div').click(function (){
+    //     $(this).hide();
+    // });
+    var d = document.getElementById('dv');
+    console.log(d);
+    d.onclick=function (){
+        // alert('123');
+        console.log('1');
+        this.style.display='none';
+    }
+</script>
+</body>
+</html>

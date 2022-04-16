@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{% url 'useradmin:register' %}" method="post">
+    username:<input type="text" name="username"><br>
+    nickname:<input type="text" name="nickname"><br>
+    passwrod:<input type="password" name="password"><br>
+    gender:<input type="gender" name="gender"><br>
+    email:<input type="email" name="email"><br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

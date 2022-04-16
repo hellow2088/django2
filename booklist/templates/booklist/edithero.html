@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<h3>编辑</h3>
+
+<body>
+<!--/booklist/editbook/?nid={{book.id}}-->
+<!--<input style='display: none' name='id' value="{{book.id}}" />-->
+<form method="POST" action="/booklist/edithero/?nid={{hero.id}}">
+   <input style='display: none' name='id' value="{{hero.id}}" />
+   姓名:<input type='text' name='hname' value="{{hero.hname}}"/><br>
+    所属书籍:
+    <select name="bookid">
+        {% for book in book %}
+            {% if book.id == hero.book_id %}
+                <option selected value="{{book.id}}">{{book.title}}</option>
+            {% else %}
+                <option value="{{book.id}}">{{book.title}}</option>
+            {% endif %}
+
+        {% endfor %}
+    </select><br>
+    技能:<input type='text' name='skill' value="{{hero.skill}}" /><br>
+    帮派:
+    <select name="orgid">
+        {% for org in org %}
+            {% if org.id == hero.org_id %}
+                <option selected value="{{org.id}}">{{org.orgname}}</option>
+            {% else %}
+                <option value="{{org.id}}">{{org.orgname}}</option>
+            {% endif %}
+        {% endfor %}
+    </select><br>
+    <input type='submit' value='提交' />
+    <br>{{msg}}
+</form>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/plugins/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/static/css/commoncss.css">
+</head>
+<body>
+    <div class="pg-header">
+        <div class="person right" style="position: relative;padding: 0 15px;" >
+            <img width="30" height="30" src="/static/images/person.jpg">
+            <div class="personinfo">
+                <a>个人资料</a><br>
+                <a>退出</a>
+            </div>
+        </div>
+        <div class="logo left">书籍后台管理系统</div>
+        <div class="rmenus right">
+            <a><i class="fa fa-commenting-o" aria-hidden="true"></i>消息</a>
+            <a><i class="fa fa-envelope-o" aria-hidden="true"></i> 邮件</a>
+        </div>
+    </div>
+
+    <div class="pg-body">
+        <div class="menus right">cd</div>
+
+        <div class="content">
+            <ol class="breadcrumb">
+              <li><a href="#">首页</a></li>
+              <li><a href="#">书籍管理</a></li>
+              <li class="active">添加书籍</li>
+            </ol>
+            <div>
+                <h3><a href="/booklist/addbook">添加</a> | <a onclick="showModal();">对话框添加书籍</a></h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>书籍名称</th>
+                            <th>出版社</th>
+                            <th>出版时间</th>
+                            <th>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;包含英雄</th>
+                            <th>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;操作</th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <table class="table">
+                    {% for book in book %}
+                    <thead>
+                        <tr>
+                            <td>{{book.id}}</td>
+                            <td>{{book.title}}</td>
+                            <td>{{book.press}}</td>
+                            <td>{{book.date | date:'Y-m-d'}}</td>
+                            <td><a href="/booklist/editbook/{{book.id}}">编辑</a>
+                                |
+                                <a onclick="modelEdit(this);">对话框编辑</a>
+                                |
+                                <a href="/booklist/delbook/?nid={{book.id}}">删除</a>
+                                <br>
+                            </td>
+
+                        </tr>
+                    </thead>
+                    {% endfor %}
+                </table>
+                <nav aria-label="Page navigation">
+                  <ul class="pagination">
+                    <li>page={{ page_info.current_page }}
+                      <a href="/booklist/showbooks/?page={{ page_info.current_page|add:-1 }}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li>{{ page_info.pager | safe}}</li>
+                    <li>
+                      <a href="/booklist/showbooks/?page={{ page_info.current_page|add:1}}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+
+
+                <div id="shadow" class="shadow hide"></div>
+
+                <div id="modal1" class="modal1 hide">
+                        <p>
+                            书名:<input id="title" type='text' name='title' /><br>
+                            出版社:<input id="press" type='text' name='press' /><br>
+                            出版日期:<input id="date" type='' name='date' /><br>
+                        </p>
+                            <input type='button' value='提交' onclick="AjaxSend();"/> <span id="errormsg"></span>
+                            <input type='button' value='取消' onclick="cancleModal();"/>
+                </div>
+
+                <!--对话框显示编辑书籍信息-->
+                <div id="editmodal" class="modal1 hide">
+                        <h3>对话框编辑</h3>
+                        <p>
+                            <input id="eid" type='text' name='id' style="display: none"/><br>
+                            书名:<input id="etitle" type='text' name='title' /><br>
+                            出版社:<input id="epress" type='text' name='press' /><br>
+                            出版日期:<input id="edate" type='' name='date' /><br>
+                        </p>
+                        <input type='button' value='提交' onclick='editAjaxSend();'/>
+                        <span id="errormsg"></span>
+                        <input type='button' value='取消' onclick='cancleModal();'/>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+<div class="pg-body">
+    <div class="menus">
+        <a>书籍管理</a>
+        <a href="/booklist/showwriter/">作者管理</a>
+        <a href="/booklist/showhero">英雄管理</a>
+    </div>
+
+</div>
+
+<!--函数-->
+<script type="text/javascript">
+    function cancleModal(){
+        document.getElementById('shadow').classList.add('hide');
+        document.getElementById('modal1').classList.add('hide');
+        document.getElementById('editmodal').classList.add('hide');
+
+
+    }
+
+    function showModal(){
+        document.getElementById('shadow').classList.remove('hide');
+        document.getElementById('modal1').classList.remove('hide');
+    }
+
+    function AjaxSend(){
+        $.ajax(
+            {url:'/booklist/windowaddbook/',
+            type:'POST',
+            data:{'title':$('#title').val(),'press':$('#press').val(),'date':$('#date').val(),},
+            success:function (data){
+                console.log(data);
+                if (data=='OK'){
+                    location.href='/booklist/showbooks/';
+                }else {
+                    $('#errormsg').text(data);
+                }
+            }
+        })
+
+    }
+
+
+    function modelEdit(ths){
+        document.getElementById('shadow').classList.remove('hide');
+        document.getElementById('editmodal').classList.remove('hide');
+        var row = $(ths).parent().prevAll();
+
+        var content = $(row[3]).text();
+        $('#eid').val(content);
+
+        var content = $(row[2]).text();
+        $('#etitle').val(content);
+
+
+        var content = $(row[1]).text();
+        $('#epress').val(content);
+
+        var content = $(row[0]).text();
+        $('#edate').val(content);
+    }
+
+    function editAjaxSend(){
+        var nid = $('#eid').val();
+        var title = $('#etitle').val();
+        var press = $('#epress').val();
+        var date = $('#edate').val();
+
+        $.ajax({
+            url:'/booklist/modelEditbook/',
+            type: 'POST',
+            data:{'nid':nid,'title':title,'press':press,'date':date},
+
+            success:function (arg){
+                arg = JSON.parse(arg);
+                if (arg.status){
+                    location.reload()
+
+                }else{
+                    alert(arg.msg);
+                }
+
+            }
+        })
+
+
+    }
+
+</script>
+<!--对话框属性-->
+<style>
+        .hide{
+            display: none;
+        }
+
+        .shadow{
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: black;
+            opacity: 0.3;
+            z-index: 1030;
+        }
+        .modal1{
+            position: fixed;
+            z-index: 1040;
+            height: 50%;
+            width: 50%;
+            top: 300px;
+            bottom: 400px;
+            background-color: white;
+            margin-left: 350px;
+            margin-top: -200px;
+        }
+
+</style>
+
+</body>
+</html>

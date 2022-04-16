@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>name</title>
+</head>
+<body>
+
+<form method="POST" action="{% url 'useradmin:login' %}">
+    name:<input type='text' name='user' />
+    password:<input type='password' name='password' />
+    <input type='submit' value='登录' />
+    {{msg}}
+
+</form>
+
+</body>
+</html>

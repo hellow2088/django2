@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<script src="jquery-3.6.0.js"></script>
+    <style>
+        tbody td{
+            border-bottom: 1px solid #d0e9c6;
+            font-size: 12px;
+            color: #0a53be;
+        }
+
+        .bg {
+            background-color: #d0e9c6;
+        }
+
+        .dsp{
+            display: none;
+        }
+
+        div{
+            background-color: #337ab7;
+        }
+    </style>
+</head>
+<body>
+<select name="f" id="s01">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+
+<input type="text" id="input1" name="uname" value="Jike">
+<input type="text" id="input2" name="uname" value="Jike" class="p1">
+<input type="text" id="input3" name="uname" value="Jike">
+
+
+<p id="p">222</p>
+
+<table border=2>
+    <thead>
+        <tr><th><input type="checkbox" id="jall"></th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>年级</th>
+            <th>班级</th>
+
+        </tr>
+    </thead>
+    <tbody id="jtb">
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>row 1, cell 1</td>
+            <td>row 1, cell 2</td>
+            <td>row 1, cell 2</td>
+            <td>row 1, cell 2</td>
+            <td>row 1, cell 2</td>
+        </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+        <td>row 2, cell 2</td>
+        <td>row 2, cell 2</td>
+        <td>row 2, cell 2</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+        <td>row 2, cell 2</td>
+        <td>row 2, cell 2</td>
+        <td>row 2, cell 2</td>
+    </tr>
+    </tbody>
+</table>
+<div color="red">123</div>
+
+
+<script>
+    $(document).ready(function(){
+      $("div").click(function(){
+        $(this).hide();
+      });
+    });
+    // $('div').click(function (){
+    //     $(this).hidden;
+    // });
+
+    var tr = document.querySelector('tbody').querySelectorAll('tr');
+    // console.log(tb)
+    for(var i=0;i<tr.length;i++){
+        tr[i].onmouseover = function (){
+            // console.log('123');
+            this.className='bg';
+        }
+        tr[i].onmouseleave = function (){
+            // console.log('123');
+            this.className='';
+        }
+    }
+
+    var ck_all = document.getElementById('jall');
+    var ch_td = document.getElementById('jtb').getElementsByTagName('input')
+    console.log(ch_td)
+    ck_all.onclick=function(){
+        // console.log(this.checked);
+        // console.log(ck_all.checked);
+        for (var i=0;i<ch_td.length;i++){
+            ch_td[i].checked=this.checked;
+        }
+
+        for(var i=0;i<ch_td.length;i++){
+            ch_td[i].onclick=function (){
+                var f = true
+                for(var i=0;i<ch_td.length;i++){
+                    if(ch_td[i].checked===false){
+                        f = false;
+                    }
+                }
+                ck_all.checked=f;
+
+            }
+        }
+
+    }
+
+
+    var select_value = document.getElementById('s01');
+    select_value.onchange=function (){
+        console.log(select_value.value);
+        if (select_value.value==1){
+            document.getElementById('input1').value='111';
+            document.getElementById('input1').disabled='';
+
+            document.getElementById('input2').value='';
+            document.getElementById('input2').disabled='disabled';
+
+            document.getElementById('input2').className='dsp';
+
+            document.getElementById('input3').value='';
+            document.getElementById('input3').disabled='disabled';
+
+
+
+        }
+        if (select_value.value==2){
+            document.getElementById('input1').value='';
+            document.getElementById('input1').disabled='disabled';
+
+            document.getElementById('input2').value='222';
+            document.getElementById('input2').disabled='';
+            document.getElementById('input3').value='';
+            document.getElementById('input3').disabled='disabled';
+
+
+        }
+        if (select_value.value==3){
+            document.getElementById('input1').value='';
+            document.getElementById('input1').disabled='disabled';
+
+            document.getElementById('input2').value='';
+            document.getElementById('input2').disabled='disabled';
+            document.getElementById('input3').value='333';
+            document.getElementById('input3').disabled='';
+
+
+        }
+
+    }
+
+
+
+
+    // var tp = docume
+    // nt.getElementById('p').innerHTML;
+    // alert(tp)
+    // var a = document.querySelector('li').textContent;
+    // console.log(a);
+    // var ls = document.getElementsByTagName('li').text;
+    // console.log(ls);
+
+    // console.log('123');
+    //
+    // for (var i=0;i<tp.length;i++){
+    //     console.log(tp[i])
+    // }
+
+    // var person = {
+    //     firstName: "John",
+    //     lastName : "Doe",
+    //     id : 5566,
+    //     fullName : function()
+    //     {
+    //        return this.firstName + " " + this.lastName;
+    //     }
+    // };
+    // // console.log(person.firstName);
+    // console.log(person.fullName());
+    // // document.getElementById("input1").innerHTML = person.fullName();
+    //
+    // document.getElementById('input1').value=person.fullName();
+    //
+    // function f2(){
+    //     var a = 0;
+    //     var b = 0
+    //     do{
+    //         var m= Math.random();
+    //         ++a;
+    //         b++;
+    //     }while (m<0.999);
+    //     console.log(a);
+    //     console.log(b);
+    //     console.log(m);
+    //
+    // }
+    // f2()
+</script>
+<!--<input type="text" id="input1">-->
+
+</body>
+</html>

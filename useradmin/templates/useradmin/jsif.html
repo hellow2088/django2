@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二级级联查询</title>
+</head>
+<body>
+    <select id="first" onChange="nextChange()">
+        <option selected="selected"></option>
+        <option>湛江</option>
+        <option>深圳</option>
+    </select>
+    <select id="second">
+
+        <option></option>
+    </select>
+
+
+<script>
+    function nextChange()
+    {
+        var first = document.getElementById("first");
+        var second = document.getElementById("second");
+        second.options.length = 0; // 清除second下拉框的所有内容
+        if(first.selectedIndex == 1)
+        {
+            second.options.add(new Option("廉江市", "0"));
+            second.options.add(new Option("吴川市", "2"));
+            second.options.add(new Option("坡头区", "1", false, true));  // 默认选中区
+        }
+
+        if(first.selectedIndex == 2)
+        {
+            second.options.add(new Option("福田区", "0"));
+            second.options.add(new Option("罗湖区", "1", false, true));  // 默认选中区
+            second.options.add(new Option("南山区", "2"));
+        }
+    }
+
+</script>
+</body>
+</html>
