@@ -13,8 +13,23 @@ from .models import *
 from django.contrib.auth.decorators import login_required
 
 from useradmin.views import check_login_cookie
-from rest_framework.mixins import CreateModelMixin,UpdateModelMixin,DestroyModelMixin,ListModelMixin,RetrieveModelMixin
-from rest_framework.generics import ListCreateAPIView
+
+import logging
+# 设置打印日志的级别，level级别以上的日志会打印出
+# level=logging.DEBUG 、INFO 、WARNING、ERROR、CRITICAL
+logging.basicConfig(filename='log.txt',
+                    filemode='a',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s-%(funcName)s',
+                    level=logging.DEBUG)
+
+
+def vuetest(request):
+    logging.debug(request)
+    content = {'name':'Mike'}
+    return render(request,'booklist/vuetest.html',content)
+
+
+
 class WriterListView(ListView):
     model = Writer
     template_name= 'booklist/writer_list.html'
@@ -69,12 +84,7 @@ def editwriter(request):
         for bookid in bookid:
             sqlhandle.update('insert into booklist_book_writer(bid,wid) values (%s,%s)', [bookid, nid])
 
-        # for bookid in bookid:
-        #     if bookid in bidlist:
-        #         pass
-        #     else:
-        #         print([bookid, nid,])
-        #         sqlhandle.update('insert into booklist_book_writer(bid,wid)values (%s,%s)', [bookid, nid,])
+
         return redirect('/booklist/showwriter/')
 
 
@@ -110,13 +120,6 @@ def showhero(request):
 
 def delhero(request):
     nid = request.GET.get('nid')
-    # conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='', database='test',
-    #                        charset='utf8')
-    # cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
-    # cursor.execute("delete from booklist_hero where id=%s", [nid, ])
-    # conn.commit()
-    # cursor.close()
-    # conn.close()
     Hero.objects.get(id=nid).delete()
     return redirect('/booklist/showhero')
 
@@ -285,17 +288,8 @@ def showbooks(request):
 def editbook(request,nid):
     if request.method == 'GET':
         print(nid)
-        # nid = request.GET.get('nid')
-        # conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='', database='test',
-        #                        charset='utf8')
-        # cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
-        # cursor.execute("select * from booklist_book where id=%s", [nid, ])
-        # book = cursor.fetchone()
-        # cursor.close()
-        # conn.close()
-        # print(nid)
+
         book = Book.objects.get(id=nid)
-        # print(type(nid))
         return render(request, 'booklist/editbook.html', {'book': book})
 
     else:
@@ -344,13 +338,7 @@ def modelEditbook(request):
 
 def delbook(request):
     nid = request.GET.get('nid')
-    # conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='', database='test',
-    #                        charset='utf8')
-    # cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
-    # cursor.execute("delete from booklist_book where id=%s", [nid, ])
-    # conn.commit()
-    # cursor.close()
-    # conn.close()
+
     Book.objects.get(id=nid).delete()
     return redirect('/booklist/showbooks')
 
@@ -528,9 +516,3 @@ class Login(View):
             return redirect('/booklist/showbooks')
         else:
             return HttpResponse('密用户名或密码错误')
-
-def getmsg(request):
-    msg = request.POST
-    l = ['a','b','c','d','e','f']
-    return render(request,'booklist/getmsg.html',{'msg':msg,'l':l})
-

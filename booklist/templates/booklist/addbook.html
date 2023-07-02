@@ -3,6 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+    var ds = '',ds2='';
+$(document).ready(function(){
+	$("button").click(function(){
+		$.get("http://127.0.0.1:8000/booklist/books_view",function(data,status){
+			console.log(data[1]);
+			console.log(data[1].title);
+            for (x in data){
+                console.log(data[x]);
+                ds += '<div>' + data[x].title + '</div>';
+                ds2 +=  data[x].title;
+
+                {#$('#demo').html(data[x].title);#}
+            };
+            $('#demo').innerHTML=ds;
+            $('#demo').html(ds);
+			console.log(ds);
+
+		});
+	});
+});
+
+
+
+</script>
 </head>
 <body>
 <form method="POST" action="{% url 'booklist:addbook' %}">
@@ -11,5 +38,8 @@
     出版日期:<input type='' name='date' /><br>
     <input type='submit' value='提交' />{{msg}}
 </form>
+
+<button>发送一个 HTTP GET 请求并获取返回结果</button>
+<div id="demo" style="color:yellow;border: #d0e9c6;background-color:green"></div>
 </body>
 </html>

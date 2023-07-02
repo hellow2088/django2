@@ -4,23 +4,35 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 
-	<script type="text/javascript">
-		function setkeyword() {
-			var kd = document.getElementById('name');
-			kd.value='1332';
-			// body...
-		}
 
-	</script>
 </head>
 <body>
-	<form action=".">
-		
-		<input type="" name="" id="name">
-		<input type="submit" name="" id="sbt" onclick="setkeyword()">
-	</form>
+
+<div id="div1">
+    <input type="button" value="点击我" @click="show">
+    <p v-text="ms"></p>
+    <p>{{ ms1 }}</p>
+</div>
+
+<script type="text/javascript">
+
+var vm = new Vue({
+    el:'#div1',
+    data:{
+        ms:'hello vue',
+        ms1:'hi vue',
+    },
+    methods:{
+            show:function(){
+                alert('hello')
+        }
+    }
 
 
+})
+
+</script>
 </body>
 </html>

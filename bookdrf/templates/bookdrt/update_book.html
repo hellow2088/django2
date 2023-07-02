@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="addForm">
+    <form id="addBook" @submit.prevent="bookForm">
+        <input type="text" name="title" class="form-control" id="title" v-model="title"><br>
+        <input type="text" name="writer" class="form-control" id="writer" v-model="'writer"><br>
+        <input type="text" name="press" class="form-control" id="press" v-model="press"><br>
+        <input type="date" name="date" class="form-control" id="date" v-model="date"><br>
+        <input type="submit" value="提交" id="btnSubmit"><br>
+
+    </form>
+
+
+</div>
+
+<script>
+   new Vue({
+       el:'#addForm',
+       data:{
+           title:'',
+           writer:'',
+           press:'',
+           date:''
+       },
+       methods:{
+           bookForm:function () {
+               console.log({title:this.title})
+               
+           }
+       }
+
+   })
+</script>
+</body>
+</html>

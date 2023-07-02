@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+</head>
+
+<body>
+{{ students }}
+    <div id ="app">
+        <table border="1">
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+            </tr>
+            <tr v-for="item in students">
+                <td>{{item}} </td>
+                <td>{{item.age}} </td>
+                <td>{{item.sex}} </td>
+                <td>[[item.title]] </td>
+                <td>[[item]] </td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+     //创建Vue实例,得到 ViewModel
+     var vm = new Vue({
+        el: '#app',
+        data: {
+            students:[]
+        },
+
+        // 初始化Vue时会调用Created(),完成data初始化，调用了getData(), 完成发送请求数据展示
+        created () {
+            this.getData();
+        },
+        methods: {
+            getData() {
+               axios.get("http://127.0.0.1:8000/booklist/books_view").then(
+                // 使用箭头函数this才会指代当前的Vue对象，如果使用的是function()，this指代的是window对象
+                   res=>{
+                       console.log(res)
+                       // res 返回的参数包括很多内容，调用data才能获取到要展示的数据
+                       this.students = res.data
+
+                   }
+               ).catch(
+                    error=>{
+                        alert(error)
+                    }
+               )
+            }
+        }
+     });
+    </script>
+</body>
+
+</html>

@@ -1,11 +1,15 @@
 from django.conf.urls import url,include
-from . import views
+from . import views,rest_views
 from django.conf.urls.static import static
 from haystack.views import SearchView
 
 
 urlpatterns = [
     # url(r'^$', views.index, name='index'),
+    url(r'^books_view$', rest_views.BooksView.as_view()),
+    url(r'^books_get/(?P<pk>\d+)$', rest_views.BookView.as_view()),
+    url(r'^vuetest/$', views.vuetest,name='vuetest'),
+
     url(r'^showhero/$', views.showhero, name='showhero'),
     url(r'^delhero/$', views.delhero, name='delhero'),
     url(r'^addhero/$', views.addhero, name='addhero'),
@@ -33,7 +37,6 @@ urlpatterns = [
     url(r'^modal_addwriter/$', views.modal_addwriter, name='modal_addwriter'),
     url(r'^window/$', views.window, name='window'),
     url(r'^layout/$', views.layout, name='layout'),
-    url(r'^getmsg/$', views.getmsg, name='getmsg'),
     # url(r'^results/$', views.search, name='search'),
     url(r'search/$', SearchView(), name='haystack_search'),
     url(r'lvbooks/$', views.BooklistView.as_view(), name='booklist_view'),

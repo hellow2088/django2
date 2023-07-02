@@ -1,5 +1,8 @@
 from functools import wraps
 
+from rest_framework.generics import GenericAPIView
+from rest_framework.mixins import CreateModelMixin,RetrieveModelMixin,ListModelMixin,DestroyModelMixin,UpdateModelMixin
+
 from django.db.models import Q
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
@@ -28,16 +31,25 @@ def jsif(request):
         #     else:
         #         return redirect("/user/login")
     # return inner
+from .check_user import checkUser
 
 def register(request):
     if request.method == 'GET':
         return render(request,'useradmin/register.html')
     else:
         data = request.POST
+        username = data['username']
+        pwd = data['password']
         print(data['username'])
-        User.objects.create(username=data['username'],nickname=data['nickname'],password=data['password'],
-                            gender=data['gender'],email=data['email'])
-        return HttpResponse('ok')
+        print(data['password'])
+        check_result = checkUser(username,pwd)
+        if check_result==None:
+            User.objects.create(username=data['username'],nickname=data['nickname'],password=data['password'],
+                                gender=data['gender'],email=data['email'])
+            return redirect('/user/login.html')
+        else:
+            return HttpResponse(check_result['msg'])
+
 
 
 
@@ -67,7 +79,7 @@ def check_login_cookie(func):
             else:
                 next_url = request.path_info
                 return redirect("/user/login".format(next_url))
-        else:
+        else:#如果没有session 则跳转到登录页面
             next_url = request.path_info
             return redirect("/user/login".format(next_url))
 

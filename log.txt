@@ -1,0 +1,879 @@
+2022-05-08 22:16:05,577 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:16:24,208 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:20:27,827 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:21:24,826 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:22:39,810 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:22:40,662 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:23:23,100 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:23:23,949 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:25:28,531 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:25:29,369 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:25:33,936 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:25:49,152 - django.request - WARNING - Not Found: /-log_response
+2022-05-08 22:25:49,444 - django.request - WARNING - Not Found: /favicon.ico-log_response
+2022-05-08 22:25:53,852 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-08 22:29:03,139 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:29:11,153 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:29:57,967 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:29:58,810 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:30:18,080 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:30:18,941 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:30:22,319 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:31:56,677 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:33:12,638 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:35:46,594 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:42:46,465 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:42:53,107 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:42:53,999 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:43:48,107 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:43:48,961 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:44:36,757 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:44:37,615 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:44:48,502 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:45:53,223 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:45:54,089 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:46:02,651 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:46:49,519 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:46:50,367 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:47:14,956 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:47:15,813 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:47:18,653 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:49:23,500 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:49:34,580 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:49:38,015 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:50:15,276 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:50:16,175 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:50:38,598 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:50:39,460 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:51:34,471 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:51:35,343 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:52:05,127 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:52:05,976 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:54:47,545 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:54:52,288 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 47, in register
+    u = User.objects.get(userame=userame)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'userame' into field. Choices are: email, gender, group, id, nickname, password, username
+2022-05-08 22:55:35,423 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:55:36,293 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:55:46,079 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:55:46,971 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:55:50,268 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:55:56,868 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 47, in register
+    u = User.objects.get(userame=username)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'userame' into field. Choices are: email, gender, group, id, nickname, password, username
+2022-05-08 22:57:29,907 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:57:30,770 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:57:38,686 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:57:51,404 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 47, in register
+    u = User.objects.get(userame=username)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1286, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1112, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\sql\query.py", line 1539, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'userame' into field. Choices are: email, gender, group, id, nickname, password, username
+2022-05-08 22:59:34,067 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 22:59:34,934 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 22:59:43,253 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:03:48,078 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:05:00,612 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:05:03,049 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:05:03,897 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:05:31,234 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 45, in register
+    checkUser(username,pwd)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\check_user.py", line 8, in checkUser
+    u = User.objects.get(username=username)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+useradmin.models.User.DoesNotExist: User matching query does not exist.
+2022-05-08 23:07:10,393 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 45, in register
+    checkUser(username,pwd)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\check_user.py", line 8, in checkUser
+    u = User.objects.get(username=username)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+useradmin.models.User.MultipleObjectsReturned: get() returned more than one User -- it returned 2!
+2022-05-08 23:09:18,487 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:09:19,355 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:10:17,501 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:10:18,354 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:12:00,737 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:12:01,634 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:12:08,281 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:12:09,148 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:12:42,162 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:12:43,029 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:13:27,625 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:14:31,794 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:14:34,812 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:15:35,162 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:15:36,028 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:15:57,440 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:15:58,298 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:16:07,101 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:16:07,996 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:16:15,730 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:16:16,606 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:16:29,588 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:16:30,433 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:16:41,317 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:16:42,197 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:16:58,326 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-08 23:16:59,177 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:17:03,406 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:18:27,031 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:18:27,881 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:18:46,117 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:18:46,973 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:19:04,140 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:19:04,996 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:19:24,282 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:19:25,133 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:19:31,796 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:19:32,652 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:19:59,352 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:20:00,211 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:20:14,246 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:20:15,094 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:20:45,164 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 45, in register
+    check_result = checkUser(username,pwd)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\check_user.py", line 9, in checkUser
+    u = User.objects.get(username=username)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+useradmin.models.User.DoesNotExist: User matching query does not exist.
+2022-05-08 23:20:55,235 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 45, in register
+    check_result = checkUser(username,pwd)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\check_user.py", line 9, in checkUser
+    u = User.objects.get(username=username)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+useradmin.models.User.DoesNotExist: User matching query does not exist.
+2022-05-08 23:21:42,050 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:22:15,222 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-08 23:22:18,713 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-08 23:22:19,581 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:42:11,330 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:42:33,055 - django.request - WARNING - Not Found: /bookdrt/vuetest-log_response
+2022-05-11 21:42:33,344 - django.request - WARNING - Not Found: /favicon.ico-log_response
+2022-05-11 21:42:49,963 - django.request - WARNING - Not Found: /bookdrt/books_get-log_response
+2022-05-11 21:44:05,962 - django.request - WARNING - Not Found: /bookdrt/books-log_response
+2022-05-11 21:44:42,020 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 21:44:42,020 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 21:46:02,781 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 21:46:03,688 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:46:10,331 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:46:11,347 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:46:17,597 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:46:26,633 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:46:51,869 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 21:46:52,760 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:47:08,870 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 21:47:09,776 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:47:12,848 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 21:47:12,849 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 21:47:21,926 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:47:22,828 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:47:24,284 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 21:47:24,285 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 21:47:25,774 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 21:47:25,774 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 21:47:26,604 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 21:47:26,604 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 21:47:26,971 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 21:47:26,972 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 21:48:37,268 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:48:38,254 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:49:34,497 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:49:35,427 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:49:38,969 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:49:39,909 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:49:47,614 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:49:48,522 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:49:52,000 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:49:52,878 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:50:25,761 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:50:26,636 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:50:32,187 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:50:33,077 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:50:36,426 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:50:38,068 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:50:42,319 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:50:44,269 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:52:03,679 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:52:11,223 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:55:02,923 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:55:03,860 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:55:13,675 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:55:14,566 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:55:18,393 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:55:20,256 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:55:44,897 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:55:47,114 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 21:55:57,319 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 21:55:58,194 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 21:56:48,645 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\urls.py changed, reloading.-trigger_reload
+2022-05-11 22:16:22,385 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:16:52,881 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:17:05,031 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:17:41,335 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:18:27,479 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 22:18:28,354 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:19:48,568 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:22:27,307 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:22:41,469 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-11 22:22:44,577 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-11 22:22:53,300 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 22:23:01,176 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 22:23:02,992 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 22:24:42,816 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:25:17,038 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:25:19,412 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 22:25:23,719 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:25:23,719 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:30:14,808 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:36:22,443 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-11 22:36:23,349 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:36:55,846 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:37:34,542 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 45, in register
+    check_result = checkUser(username,pwd)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\check_user.py", line 40, in checkUser
+    if num in pwd:
+TypeError: 'in <string>' requires string as left operand, not int
+2022-05-11 22:39:16,970 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-11 22:39:17,860 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:39:52,889 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 46, in register
+    if check_result['check_result'] == False:
+TypeError: 'NoneType' object is not subscriptable
+2022-05-11 22:40:48,686 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:41:07,878 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 46, in register
+    if check_result['check_result'] == False:
+TypeError: 'NoneType' object is not subscriptable
+2022-05-11 22:44:40,937 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:44:43,000 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:45:47,229 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 47, in register
+    if check_result['check_result'] == False:
+TypeError: 'NoneType' object is not subscriptable
+2022-05-11 22:46:20,612 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:46:21,504 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:48:12,449 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:48:13,324 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:48:17,309 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:48:42,885 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 50, in register
+    if check_result['check_result'] == False:
+TypeError: 'NoneType' object is not subscriptable
+2022-05-11 22:49:04,172 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:49:05,063 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:49:23,152 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:49:24,152 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:49:31,750 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:49:35,721 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:50:03,242 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:50:04,174 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:50:05,873 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:50:23,963 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 50, in register
+    if check_result['check_result'] == False:
+TypeError: 'NoneType' object is not subscriptable
+2022-05-11 22:50:36,061 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:50:36,958 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:50:39,546 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:50:56,005 - django.request - ERROR - Internal Server Error: /user/register-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharmenv\pyweb\mysite\useradmin\views.py", line 50, in register
+    if check_result['check_result'] == False:
+TypeError: 'NoneType' object is not subscriptable
+2022-05-11 22:51:17,957 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:51:18,849 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:51:22,820 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:51:41,439 - django.request - WARNING - Not Found: /user/useradmin/register.html-log_response
+2022-05-11 22:52:17,012 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:52:17,012 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:53:18,173 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:53:18,173 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:53:19,978 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:53:19,978 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:53:20,985 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:53:20,986 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:53:21,803 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:53:21,803 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:53:28,660 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:53:28,660 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:54:46,582 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:54:54,262 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:54:55,143 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:54:56,817 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:54:58,776 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:54:58,776 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:55:00,403 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:55:00,403 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:55:01,203 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:55:01,203 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:55:01,940 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:55:01,940 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:56:13,782 - django.request - ERROR - Internal Server Error: /bookdrf/books-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 520, in options
+    data = self.metadata_class().determine_metadata(request, self)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\metadata.py", line 68, in determine_metadata
+    actions = self.determine_actions(request, view)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\metadata.py", line 87, in determine_actions
+    view.get_object()
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\generics.py", line 88, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view BooksView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+2022-05-11 22:56:26,910 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:56:26,910 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:57:16,865 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:57:16,865 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:57:19,232 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 22:57:19,232 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 22:58:00,796 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:58:01,726 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 22:58:22,126 - django.request - WARNING - Not Found: /user/useradmin/login.html-log_response
+2022-05-11 22:58:45,458 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 22:58:46,360 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:00:42,745 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 23:00:43,652 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:02:19,935 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-11 23:02:20,826 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:02:22,920 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:04:24,686 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-11 23:04:25,577 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:04:37,579 - django.request - WARNING - Not Found: /user/user/login.html-log_response
+2022-05-11 23:05:38,421 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-11 23:05:39,296 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:06:00,005 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:06:00,006 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:06:01,209 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:06:01,209 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:06:01,923 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:06:01,923 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:06:02,739 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:06:02,739 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:06:03,169 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:06:03,169 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:06:03,605 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:06:03,606 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:06:04,288 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:06:04,288 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:07:41,260 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:07:45,469 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:08:35,629 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\check_user.py changed, reloading.-trigger_reload
+2022-05-11 23:08:36,489 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:08:39,421 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:08:55,921 - django.request - WARNING - Not Found: /user/user/login.html-log_response
+2022-05-11 23:09:10,273 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\useradmin\views.py changed, reloading.-trigger_reload
+2022-05-11 23:09:11,211 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:09:16,860 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:09:24,441 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:09:27,025 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:09:39,433 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:09:56,369 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:21:24,977 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:21:30,916 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:21:34,971 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:21:39,980 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:21:40,796 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:22:02,978 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:22:26,243 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-11 23:22:28,860 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:22:28,860 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:22:31,381 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:22:31,381 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:22:32,523 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:22:32,523 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:22:33,473 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:22:33,473 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:22:33,493 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:22:46,035 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:22:46,035 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:22:46,055 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:22:47,896 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:22:47,897 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:22:47,917 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:22:48,802 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:22:48,802 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:22:48,823 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:22:49,472 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:22:49,472 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:22:49,492 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:23:59,740 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:23:59,740 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:24:01,639 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:24:01,639 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:24:02,472 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:24:02,472 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:24:03,302 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:24:03,302 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:24:03,322 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:24:42,500 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:24:43,417 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:24:46,916 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:24:47,805 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:24:53,169 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:24:53,170 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:24:54,637 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:24:54,637 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:24:55,468 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:24:55,468 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:24:56,238 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:24:56,238 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:24:56,258 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:25:08,308 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:25:09,196 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:27:18,308 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:27:19,240 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:27:46,689 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:27:47,658 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:28:05,811 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:28:06,766 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:28:19,840 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:28:20,762 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:28:29,533 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:28:30,559 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:28:35,014 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:28:35,889 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:28:39,871 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:28:39,872 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:28:41,182 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:28:41,182 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:28:42,054 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:28:42,054 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:28:42,933 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:28:42,933 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:28:42,953 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:28:44,914 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:28:44,914 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:28:44,935 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:29:28,025 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:29:29,122 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:40:58,283 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:40:59,236 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:41:11,103 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:41:11,978 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:42:03,514 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:42:04,389 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:42:06,828 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:42:07,741 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:42:26,066 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:42:26,979 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:42:34,703 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:42:48,203 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:42:57,638 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:42:57,638 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:42:58,907 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:42:58,907 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:42:59,797 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:42:59,797 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:43:00,982 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:43:00,982 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-11 23:43:01,002 - django.request - WARNING - Too Many Requests: /bookdrf/books-log_response
+2022-05-11 23:43:26,606 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:43:27,510 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:43:38,266 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:43:39,173 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:43:58,260 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:43:59,135 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:44:47,414 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\mysite\settings.py changed, reloading.-trigger_reload
+2022-05-11 23:44:48,321 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:45:05,314 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\bookdrf\views_Mixin.py changed, reloading.-trigger_reload
+2022-05-11 23:45:06,204 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-11 23:57:26,290 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-11 23:57:26,291 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:41:51,513 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:42:15,562 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:42:29,009 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-05-24 23:42:32,205 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-24 23:42:32,205 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:42:32,632 - django.request - WARNING - Not Found: /favicon.ico-log_response
+2022-05-24 23:42:45,178 - django.request - ERROR - Internal Server Error: /bookdrf/books-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: delete() missing 1 required positional argument: 'pk'
+2022-05-24 23:42:55,615 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-24 23:42:55,615 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:43:18,641 - django.request - WARNING - Not Found: /bookdrf/books_get-log_response
+2022-05-24 23:43:31,398 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-24 23:43:31,398 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:43:31,418 - django.request - WARNING - Not Found: /bookdrf/books_get/1-log_response
+2022-05-24 23:43:39,967 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-24 23:43:39,967 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:44:02,283 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-24 23:44:02,283 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:44:36,101 - django.request - ERROR - Internal Server Error: /bookdrf/books_get/2-log_response
+Traceback (most recent call last):
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\django-3.2.12-py3.8.egg\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\python3.8\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'pk'
+2022-05-24 23:44:45,392 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-24 23:44:45,392 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:44:48,749 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-24 23:44:48,749 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:45:14,108 - MARKDOWN - DEBUG - Successfully imported extension module "markdown.extensions.toc".-build_extension
+2022-05-24 23:45:14,108 - MARKDOWN - DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".-registerExtensions
+2022-05-24 23:47:31,899 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:50:50,120 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:50:52,403 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:51:21,782 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\rest_views.py changed, reloading.-trigger_reload
+2022-05-24 23:51:22,903 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:51:24,696 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:51:25,104 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:53:24,882 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\views.py changed, reloading.-trigger_reload
+2022-05-24 23:53:25,773 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:53:29,521 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:53:31,167 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:53:33,096 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:53:33,195 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:55:26,742 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:55:26,883 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:55:27,001 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:55:43,885 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:55:44,102 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:55:44,212 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:56:40,143 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:56:40,734 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:56:40,864 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:56:41,912 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:56:42,013 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:56:48,773 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:56:49,076 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:56:49,190 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:56:49,988 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:56:50,100 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:58:24,399 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\rest_views.py changed, reloading.-trigger_reload
+2022-05-24 23:58:25,290 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:58:27,239 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:58:29,392 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:58:29,499 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:59:18,980 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:59:19,620 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:59:19,727 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:59:38,075 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-24 23:59:38,795 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:59:38,917 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:59:39,757 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:59:39,859 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-24 23:59:40,156 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-24 23:59:40,267 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:01:32,250 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\rest_views.py changed, reloading.-trigger_reload
+2022-05-25 00:01:33,170 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:01:34,040 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:01:34,145 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:01:34,846 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:01:34,936 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:02:20,503 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:02:20,624 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:02:21,316 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:02:21,413 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:02:46,725 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:02:47,138 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:02:47,248 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:02:48,587 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:02:48,675 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:02:49,049 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:02:49,177 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:02:49,522 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:02:49,640 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:03:23,303 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:03:23,541 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:03:23,678 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:03:24,532 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:03:24,636 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:03:37,218 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\views.py changed, reloading.-trigger_reload
+2022-05-25 00:03:38,141 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:03:39,781 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:03:40,474 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:03:41,518 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:03:43,912 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:03:44,329 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:04:15,618 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\rest_views.py changed, reloading.-trigger_reload
+2022-05-25 00:04:16,584 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:04:16,803 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:04:17,442 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:04:20,596 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:04:21,006 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:06:11,215 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\rest_views.py changed, reloading.-trigger_reload
+2022-05-25 00:06:12,247 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:06:14,686 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\views.py changed, reloading.-trigger_reload
+2022-05-25 00:06:15,655 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:06:17,562 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:07:55,950 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:07:56,091 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:07:56,270 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:07:58,949 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:07:59,043 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:09:29,299 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:09:29,403 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:09:55,744 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\rest_views.py changed, reloading.-trigger_reload
+2022-05-25 00:09:56,651 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:09:59,289 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:09:59,554 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:09:59,677 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:10:02,100 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:10:02,202 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:10:33,124 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\rest_views.py changed, reloading.-trigger_reload
+2022-05-25 00:10:34,093 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:10:35,482 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:10:35,591 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:10:59,832 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:11:00,176 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:11:00,305 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:11:23,290 - django.utils.autoreload - INFO - E:\pycharmenv\pyweb\mysite\booklist\rest_views.py changed, reloading.-trigger_reload
+2022-05-25 00:11:24,321 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:11:35,602 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:11:35,729 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:11:42,371 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:11:42,470 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:12:51,159 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:12:53,025 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:12:53,136 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:14:01,729 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:14:04,895 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:14:05,018 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:14:07,868 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:14:07,968 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:14:27,864 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:14:29,734 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:14:29,853 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:14:31,416 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:14:31,508 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:14:32,322 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:14:32,427 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:14:33,275 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:14:33,435 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:14:34,170 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:14:34,270 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:15:03,432 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:15:06,271 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:15:06,376 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:15:07,593 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:15:07,683 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:15:09,016 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:15:09,120 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:15:09,823 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:15:09,914 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:15:10,491 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:15:10,581 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:16:15,255 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-25 00:16:17,051 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:16:17,154 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:16:18,065 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:16:18,174 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:16:18,905 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:16:19,003 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:16:19,206 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:16:19,353 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-25 00:16:19,696 - root - DEBUG - <WSGIRequest: GET '/booklist/vuetest/'>-vuetest
+2022-05-25 00:16:19,823 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-05-30 23:30:10,977 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-30 23:30:36,431 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-05-30 23:31:12,436 - django.request - WARNING - Unauthorized: /bookdrf/books-log_response
+2022-09-25 09:36:30,750 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-09-25 09:37:34,242 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-09-25 09:38:24,491 - django.request - WARNING - Not Found: /-log_response
+2022-09-25 09:38:24,773 - django.request - WARNING - Not Found: /favicon.ico-log_response
+2022-09-25 09:38:52,228 - django.request - WARNING - Not Found: /user-log_response
+2022-09-25 09:39:04,008 - django.request - WARNING - Not Found: /user/-log_response
+2022-09-25 09:40:29,424 - django.request - WARNING - Not Found: /booklist-log_response
+2022-09-25 09:40:40,751 - django.request - WARNING - Not Found: /booklist/-log_response
+2022-09-25 09:41:03,385 - django.request - WARNING - Not Found: /booklist/book_view-log_response
+2022-09-25 09:41:12,432 - root - DEBUG - 当前类BooksView--当前路径方法<WSGIRequest: GET '/booklist/books_view'>-get
+2022-09-25 09:46:18,851 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-09-25 09:58:02,896 - django.request - WARNING - Unauthorized: /bookdrf/books_get/2-log_response
+2022-09-25 09:58:39,296 - django.request - WARNING - Unauthorized: /bookdrf/books_get/2-log_response
+2022-10-23 09:25:44,338 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-10-23 09:26:14,642 - django.request - WARNING - Not Found: /-log_response
+2022-10-23 09:26:14,933 - django.request - WARNING - Not Found: /favicon.ico-log_response
+2022-10-23 09:27:35,237 - django.request - WARNING - Not Found: /user/login.html-log_response
+2022-10-24 21:29:55,778 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView
+2022-10-24 21:43:10,485 - root - DEBUG - <class 'django.views.generic.list.ListView'>-BooklistView

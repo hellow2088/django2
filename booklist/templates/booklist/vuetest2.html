@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+<div id="blist">
+
+    <button v-on:click="getbooks">showbooks</button>
+    <div>{{ info.name }}</div>
+    <div>[[info.name]]</div>
+    <div v-for="book in info.sites">
+        [[ book.info ]]
+    </div>
+    <div>{{ info }}</div>
+</div>
+
+<script type="text/javascript">
+    console.log(222)
+    new Vue({
+        el: '#blist',
+        delimiters: ['[[', ']]'],
+        {#data:{message:'hi vueeeee',},#}
+        data () {
+                return {
+                  info: {
+                      name:'',
+                      num:'',
+                      sites:[]
+                  }
+                }
+              },
+        methods: {
+            getbooks: function () {
+                console.log(123)
+                var url = "http://127.0.0.1:8000/booklist/books_view"
+                axios
+                    .get(url)
+                    .then(response => {
+                        this.info = response.data;
+                        console.log(this.info.name);
+                        console.log(this.info.num);
+                        console.log(this.info.sites);
+                    })
+                    .catch((error) => {
+                        console.log(error)
+                    });
+            }
+        }
+    })
+
+
+</script>
+</body>
+</html>

@@ -14,7 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+print ("base dir path", BASE_DIR)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
@@ -29,7 +29,6 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
 # Application definition
 
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,12 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'booklist.apps.BooklistConfig',
     'rest_framework',
-    'useradmin',
-    'mytest',
-    'haystack'
+    'useradmin.apps.UseradminConfig',
+    'mytest.apps.MytestConfig',
+    'haystack',
+    'bookdrf.apps.BookDrtConfig',
+    'corsheaders',
+
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -52,6 +55,16 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:8080',
+    'http://127.0.0.1:8000',
+    'https://www.runoob.com',
+    'http://localhost:63342'
+)
+# CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS=True
+
 
 ROOT_URLCONF = 'mysite.urls'
 
@@ -139,4 +152,34 @@ HAYSTACK_CONNECTIONS = {
         'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
         'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
     },
+}
+
+'''认证与权限'''
+REST_FRAMEWORK = {
+    '''全局认证'''
+    # 'DEFAULT_AUTHENTICATION_CLASSES': [
+    #     'rest_framework.authentication.BasicAuthentication',
+    #     'rest_framework.authentication.SessionAuthentication',
+    # ],
+    # 'DEFAULT_PERMISSION_CLASSES': [
+    #     'rest_framework.permissions.IsAuthenticated',
+    #     'rest_framework.permissions.AllowAny',
+    #     'rest_framework.permissions.IsAdminUser',
+    # ],
+
+    'DEFAULT_THROTTLE_CLASSES': [
+        #全局限流，
+        # 'rest_framework.throttling.AnonRateThrottle',
+        # 'rest_framework.throttling.UserRateThrottle',
+        #视图限流
+        'rest_framework.throttling.ScopedRateThrottle',
+
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        #用户限流
+        # 'anon': '2/min',#匿名用户，游客
+        # 'user': '3/min'
+        #视图限流
+        'viewname': '3/day'
+    }
 }
